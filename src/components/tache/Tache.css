@@ -1,0 +1,26 @@
+.tableux {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 0;
+    border-collapse: collapse;
+    border: 0.5px solid #000000;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+
+.tableuxLigne {
+    display: contents;
+}
+
+.tableuxLigne p {
+    border: 0.5px solid #000000;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(238, 245, 15);
+    font-size: 1em;
+}

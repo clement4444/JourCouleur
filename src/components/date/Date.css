@@ -1,0 +1,17 @@
+.contenerDate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dateFr {
+    display: inline;
+    font-size: 1.3em;
+    color: white;
+}
+
+.dateChiffre {
+    display: inline;
+    font-size: 1.3em;
+    color: white;
+}
