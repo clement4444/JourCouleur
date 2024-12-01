@@ -11,7 +11,7 @@ const Couleur = () => {
     }
     const ans = date.slice(0, 4);
     const mois = date.slice(5, 7);
-    const jour = date.slice(8, 10);
+    const jour = parseInt(date.slice(8, 10));
     const nameMois = getMois(mois);
 
     const jourCouleur = calendrier[ans][nameMois][jour];
