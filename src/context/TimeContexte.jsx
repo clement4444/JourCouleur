@@ -20,7 +20,7 @@ export const DateProvider = ({ children }) => {
         // fetche la date actuelle
         const fetchDate = async () => {
             try {
-                const response = await fetch('https://api-univers.vercel.app/time');
+                const response = await fetch('https://api-univers.vercel.app/jourCouleur/time');
                 if (!response.ok) {
                     throw new Error(`Erreur : ${response.status}`);
                 }
@@ -36,7 +36,7 @@ export const DateProvider = ({ children }) => {
         // fetche le calendrier
         const fetchCalendrier = async () => {
             try {
-                const response = await fetch('https://api-univers.vercel.app/calendrier');
+                const response = await fetch('https://api-univers.vercel.app/jourCouleur/calendrier');
                 if (!response.ok) {
                     throw new Error(`Erreur : ${response.status}`);
                 }
